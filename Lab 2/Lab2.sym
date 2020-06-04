@@ -1,0 +1,29 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	A                       305F
+//	AHH                     307A
+//	ASCA                    307F
+//	ASCB                    307E
+//	ASCC                    307D
+//	ASCD                    307C
+//	ASCF                    307B
+//	B                       305C
+//	BAE                     3079
+//	C                       3059
+//	CODA                    3008
+//	CONT                    3022
+//	COOL                    3078
+//	CTR                     3020
+//	D                       3056
+//	DUMB                    3077
+//	END                     3062
+//	F                       3053
+//	FAIL                    3076
+//	FNL                     3074
+//	HIS                     302A
+//	LOOP                    3009
+//	MASK                    3075
+//	PTR                     3073
+//	RPT                     3033
+//	SETR6                   3024
+//	SWAP                    3018

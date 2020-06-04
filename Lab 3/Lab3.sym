@@ -1,0 +1,28 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	AGAIN                   3057
+//	ASCII0                  30F1
+//	BEG                     3052
+//	CHK                     3034
+//	CONT                    3023
+//	DONE                    30A9
+//	DUMB                    307F
+//	END                     3094
+//	ENDLINE                 30F3
+//	IDSAVE                  308F
+//	MATCH                   306F
+//	MAYBE                   3037
+//	NADA                    3095
+//	NEXT                    3062
+//	NOLIST                  3077
+//	NOLIST2                 307C
+//	NOMORE                  3047
+//	NOMORE2                 3086
+//	NOOO                    308D
+//	NULL                    30F4
+//	PTR                     30F2
+//	SAME                    3068
+//	SKIP                    3042
+//	START                   3000
+//	STRR0                   30F5
+//	THERE                   30CE

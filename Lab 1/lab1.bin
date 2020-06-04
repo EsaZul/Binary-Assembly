@@ -1,0 +1,29 @@
+0011 0000 0000 0000	; .ORIG
+
+;********************************
+;Lab 1
+;Eduardo Saul Ruiz
+
+;**********LOAD******************
+
+0010 000 000011111	; LD, R0, x1F - Selects the number in x3020 and uses it as the base then saves it in R0
+
+0110 001 000 000000	; LDR, R1, R0, x0 -Loads the number found in the base into R1
+0110 010 000 000001	; LDR, R2, R0, X1 -Loads the number found in the base and an offset of one into R2
+0110 011 000 000010	; LDR, R3, R0, X2 -Loads the number found in the base and an offset of two into R3
+
+;***********ADD******************
+
+0001 001 001 111111	; ADD, R1, R1, #-1 -Adds #-1 to the number stored in R1 and overwrites new number into the same Reg
+0001 010 010 111110	; ADD, R2, R2, #-2 -Adds #-2 to the number stored in R2 and overwrites new number into the same Reg
+0001 011 011 111100	; ADD, R3, R3, #-4 -Adds #-4 to the number stored in R3 and overwrites new number into the same Reg
+
+;**********STORE*****************
+
+0111 001 000 000000	; STR, R1, R0, X0 -Stores the added number in R1 into the base (ovewrites)
+0111 010 000 000001	; STR, R2, R0, X1 -Stores the added number in R2 into the base and an offset of one (overwrites)
+0111 011 000 000010	; STR, R3, R0, X2 -Stores the added number in R3 into the base and an offset of two (overwrites)
+
+;********************************
+
+1111000000100101	; HALT

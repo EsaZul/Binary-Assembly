@@ -1,0 +1,21 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	CHK                     301A
+//	CTR                     3024
+//	DDR                     302C
+//	DSR                     302B
+//	ENABLE                  3025
+//	EYE                     3017
+//	ISR                     3023
+//	KBDR                    302A
+//	KBSR                    3029
+//	NEW                     3008
+//	NEWLINE                 3026
+//	REPEAT                  3009
+//	SAVE_R0                 301F
+//	SAVE_R7                 3020
+//	SPACE                   3028
+//	STACK                   3021
+//	STAR                    3027
+//	TIME                    302D
+//	VECTOR                  3022
